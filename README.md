@@ -13,22 +13,6 @@ Graphene is a single layer of carbon atoms arranged in a honeycomb lattice. It i
 
 If we consider the most minimal tight-binding model where electrons can hop between neighbors with a strength *t* , it is possible to obtain a so called Bloch Hamiltonian 
 
-![equation](https://latex.codecogs.com/svg.latex?H_{0}(\mathbf{k})=\left(\begin{array}{cc}&space;0&space;&&space;h(\mathbf{k})&space;\\&space;h^{\dagger}(\mathbf{k})&space;&&space;0&space;\end{array}\right))
-
-
-```H_{0}(\mathbf{k})=\left(\begin{array}{cc}
-0 & h(\mathbf{k}) \\
-h^{\dagger}(\mathbf{k}) & 0
-\end{array}\right) 
-```
-
-with $$
-\mathbf{k}=\left(k_{x}, k_{y}\right)
-$$ and 
-$$
-h(\mathbf{k})=t_{1} \sum_{i} \exp \left(i \mathbf{k} \cdot \mathbf{a}_{i}\right)
-$$
-With the **a**~i~ the vectors shown in the previous figure.
 
 ## Making graphene topolocical:
 
