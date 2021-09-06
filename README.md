@@ -16,10 +16,8 @@ If we consider the most minimal tight-binding model where electrons can hop betw
 
 ## Making graphene topolocical:
 
-As showed in the link provided, the first way (and easiest ) to break TRS is by using a simple mass term or so called onsite energy term of opposite sign +*M* and -*M*. The effect is to open a gap, which can be seen by setting in the notebook the mass term to a value different from zero. Without going into the details of the calculations it can be showed that the energy spectrum is now gapped 
-$$
-E(\mathbf{k})=\pm \sqrt{|h(\mathbf{k})|^{2}+M^{2}}
-$$
+As showed in the link provided, the first way (and easiest ) to break TRS is by using a simple mass term or so called onsite energy term of opposite sign +*M* and -*M*. The effect is to open a gap, which can be seen by setting in the notebook the mass term to a value different from zero. Without going into the details of the calculations it can be showed that the energy spectrum is now gapped.
+
 However this mass term preserves time-reversal symmetry and no topological states are expected (also if one calculates the Berry curvature and Chern number this will show that the system is trivial).
 
 
@@ -32,10 +30,7 @@ Haldane found an ingenious way to break TRS without the presence of a magnetic f
 
 Note that to have zero flux across the system the hopping is performed on opposite directions (+*i* t<sub>2</sub> and -*i* t<sub>2</sub>)
 
-This term transforms the Hamiltonian in the following way:
-$$
-H(\mathbf{k})=H_{0}(\mathbf{k})+M \sigma_{z}+2 t_{2} \sum_{i} \sigma_{z} \sin \left(\mathbf{k} \cdot \mathbf{b}_{i}\right)
-$$
+
 Where the  t<sub>2</sub> term represents the strength of the NNN parameter. This term changes sign under TRS meaning that is responsible of breaking it.  This in a nutshell is the effect of the NNN term to the standard linear relation of graphene.
 
 I leave to the link attached a more detailed explanation both on the Berry curvature and the calculation of the edge states which are shown in the notebook. 
